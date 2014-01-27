@@ -2,16 +2,20 @@
 <html lang="en" prefix="og:http://ogp.me/ns">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="">
   <title></title>
   
-  <!-- CDN compiled and minified Bootstrap CSS -->
+  <!-- Bootstrap CSS via CDN -->
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 
-  <!-- Custom uncompiled LESS styles -->
-  <link rel="stylesheet/less" href="assets/less/custom.less" />
+  <!-- Compiled LESS via assets/less/custom.less -->
+  <link rel="stylesheet" href="assets/css/custom.min.css" />
+
+  <!-- Uncompiled LESS -->
+  <!-- <link rel="stylesheet/less" href="assets/less/custom.less" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.6.1/less.min.js"></script> -->
 
   <!-- Icons -->
   <link rel="shortcut icon" href="favicon.ico" />
@@ -32,14 +36,16 @@
   <meta name="twitter:domain" content="http://bullycreative.co" />
   <meta name="twitter:image" content="ogimage.jpg" />
 	
-  <!-- LESS.js, Modernizr & TypeKit -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.6.1/less.min.js"></script>  
+  <!-- Modernizr via CDN -->
   <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
-  <script type="text/javascript" src="//use.typekit.net/XXXXXXX.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!-- TypeKit -->
+  <!-- <script type="text/javascript" src="//use.typekit.net/XXXXXXX.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script> -->
 </head>
 
 <body>
+  <!--[if lt IE 8]><p>You are using an outdated browser. Please <a href="http://browsehappy.com">update</a> to improve your experience.</p><![endif]-->
 	<header>
 	
 	</header>
@@ -54,8 +60,11 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 	
-	<!-- Local javascript -->
-	<script src="assets/js/plugins.js"></script>
-	<script src="assets/js/main.js"></script>
+	<!-- Compiled JS via assets/js/plugins.js and assets/js/main.js -->
+	<script src="assets/js/app.min.js"></script>
+
+  <!-- Uncompiled JS -->
+  <!-- <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script> -->
 </body>
 </html>
