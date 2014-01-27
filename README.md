@@ -1,4 +1,4 @@
-# A simple and efficient boilerplate for starting front-end development
+# A Lightweight Front-End Boilerplate
 This boilerplate uses content delivery networks to deliver assets we frequently use during front-end development. The goal was to create a super lightweight package to be used as a common structure and baseline as projects start up. It will minimize the time and effort required to gain momentum on smaller static projects, and allow for rapid execution of ideas, concepts, or prototypes.
 
 ## Assets Included
